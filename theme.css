@@ -1,0 +1,170 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+  font-size: 16px;
+  font-family: 'Roboto',sans-serif;
+}
+
+header {
+  background-color: #990000;
+  color: #fff;  
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+}  
+
+h2,
+.h2 {
+  margin-bottom: 3px;
+}
+
+h4,
+.h4 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+span.avoidwrap {
+  display: inline-block;
+}
+
+.nav-link.active {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.btn:focus, .a:focus {
+  outline: none!important;
+}
+
+.btn {
+  box-shadow: none!important;
+  outline: none!important;
+}
+
+#overview {
+  margin-bottom: 2rem;
+}
+
+#newspanel {
+  max-height: 50vh;
+  overflow: auto;
+}
+
+#people {
+  max-height: 600px;
+  overflow: auto;
+}
+
+#bodytext {
+  text-align: justify;
+}
+
+.longname {
+  font-size:102%;
+}
+
+.expander {
+  color: rgba(0,0,0,.55);
+}
+
+#pubs-list {
+  max-height: 65vh;
+  overflow: auto;
+}
+
+.pub-title {
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.card {
+  margin-bottom: 10px;
+}
+
+.card .badge {
+  align-self: center!important;
+  margin: 1px;
+}
+
+.filter-button:hover,
+.filter-button:focus,
+.filter-button.active{
+  color: #ffffff;
+  background-color:#990000;
+  outline:none;
+}
+
+.accordion {
+  min-width: 100%;
+}
+
+.accordion-collapse {
+  transition: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000; 
+    background-color: #fff; 
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,0);
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(0,0,0,0);
+}
+
+.accordion-button {
+  font-size: inherit;
+}
+
+.contactlist,
+.contactlist li {
+	margin: 0;
+	padding: 0;
+}
+
+.contactlist li {
+	display: inline;
+	padding-right: 10px;
+}
+
+.coordinates > span {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: none;
+}
+
+.header-bar {
+	background-color: #990000;
+	color: #fff;
+}
+
+.header-btn {
+  color: #fff;
+  background-color: #990000;
+}
+
+.header-btn:hover {
+  color: #fff;
+  background-color: #990000;
+  border-color: #fff;
+}

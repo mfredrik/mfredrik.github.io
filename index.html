@@ -1,5 +1,301 @@
-<html xmlns="http://www.w3.org/1999/xhtml"> 
+<!DOCTYPE html>
+<html lang="en" class="h-100">
 
-<meta http-equiv="refresh" content="0;URL='https://cs.cmu.edu/~mfredrik/'" />
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="favicon.ico">
+
+  <title>Matt Fredrikson</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  
+  <script src="https://kit.fontawesome.com/d7d80dae99.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <script src="assets/js/ie-emulation-modes-warning.js"></script>
+  <script src="assets/js/pubfilters.js"></script>
+  <script src="nav.js"></script>
+
+  <link href="theme.css?v=2.0" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</head>
+
+<body role="document" class="d-flex flex-column h-100">
+
+  <div class="container">
+
+    <header class="mt-1">
+      <a class="anchor" id="overview-top"></a>
+      <div class="container d-flex flex-row align-items-center justify-content-between header-bar">
+          <div class="col-sm-10 mt-1">
+            <h2>Matt Fredrikson</h2>
+            <p>
+              <h4>
+                Associate Professor<br>
+                <span class="avoidwrap">School of Computer Science</span><br>
+                Carnegie Mellon University
+              </h4>
+            </p>
+            <div class="d-flex justify-content-start align-content-center coordinates flex-wrap">
+              <span class="avoidwrap"><i class="fas fa-inbox"></i> mfredrik@cmu.edu</span>
+              <span class="avoidwrap"><i class="fas fa-phone"></i> 412/268-3992</span>
+              <a href="https://goo.gl/maps/oXmWvbLeXKDqacSBA" class="btn header-btn">
+                <i class="fas fa-map-pin"></i> CIC 2126
+              </a>
+              <a href="https://github.com/mfredrik" class="btn header-btn avoidwrap" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub">
+                <i class="fab fa-github fa-lg"></i> mfredrik
+              </a>
+              <a href="https://scholar.google.com/citations?user=tMYCvLAAAAAJ" class="btn header-btn" data-bs-toggle="tooltip" data-bs-placement="top" title="Google Scholar">
+                <i class="ai ai-google-scholar ai-lg"></i>
+              </a>
+              <a href="https://dblp.uni-trier.de/pid/38/2612.html" class="btn header-btn" data-bs-toggle="tooltip" data-bs-placement="top" title="DBLP">
+                <i class="ai ai-dblp ai-lg"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-2 d-none d-sm-inline m-2" id="portrait">
+            <img src="images/mfredrik.jpg" width=144>
+          </div>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light px-3" id="nav">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navitems" aria-controls="navitems" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navitems">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#overview-top">Overview</a></li>
+          <li class="nav-item"><a class="nav-link" href="#news-top">Recent Highlights</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pubs-top">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="#people-top">Students &amp; Postdocs</a></li>
+          <li class="nav-item"><a class="nav-link" href="#teaching-top">Teaching</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="d-flex justify-content-center" id="bodytext">
+      <div class="accordion accordion-flush flex-row" id="mainpanel">
+        <div class="accordion-item" id="overview-container">
+          <h3 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#overview" aria-expanded="false" aria-controls="overview">
+              Overview
+            </button>
+          </h3>
+
+          <div class="accordion-collapse collapse show" id="overview">
+            <div class="accordion-body">
+
+              <p>
+              I'm an Associate Professor in Carnegie Mellon's School of Computer Science, and am a member
+              of <a href="https://www.cylab.cmu.edu/">CyLab</a>.
+              </p>
+
+              <p>
+              My research aims to enable systems that make secure, fair, and reliable use of machine learning.
+              My group focuses on finding ways to understand the unique risks and vulnerabilities that arise from learned components, and on developing methods to mitigate them, often with provable guarantees.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item" id="news-container">
+          <a class="anchor" id="news-top"></a>
+          <h3 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#news">
+              Recent Highlights
+            </button>
+          </h3>
+
+          <div class="highlights accordion-collapse collapse show" id="news">
+            <div class="accordion-body">
+              <div class="container bg-body rounded shadow-sm w-100" id="newspanel">
+              </div>
+              <div class="d-grid">
+                <button class="btn btn-light expander collapsed" expand-target="#newspanel" collapse-height="50vh">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-bar-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"/>
+                  </svg>
+                </button>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item" id="pubs-container">
+          <a class="anchor" id="pubs-top"></a>
+          <h3 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#pubs">
+              Publications
+            </button>
+          </h3>
+
+          <div class="accordion-collapse collapse show" id="overview">
+            <div class="accordion-body">
+              <div>
+                See <a href="https://scholar.google.com/citations?user=tMYCvLAAAAAJ">Google Scholar</a>  for a full, up-to-date listing
+              </div>
+            </div>
+          </div>
+
+          <div class="highlights accordion-collapse collapse show" id="pubs" aria-expanded="true">
+            <div class="d-flex flex-column justify-content-center accordion-body publications">
+              <div id="pubs-list">
+              </div>
+              <div class="d-grid">
+                <button class="btn btn-light expander collapsed" expand-target="#pubs-list" collapse-height="65vh">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-bar-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item" id="people-container">
+          <a class="anchor" id="people-top"></a>
+          <h3 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#people">
+              Students &amp; Postdocs
+            </button>
+          </h3>
+
+          <div class="highlights accordion-collapse collapse show mb-3" id="people">
+            <div class="accordion-body">
+              <h5 class="card-title">Current</h5>
+              <div class="d-flex justify-content-center flex-wrap">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kai Hu</h5>
+                  <img src="https://avatars.githubusercontent.com/u/35267818?v=4", class="img-thumbnail rounded-circle", height="150px", width="150px">
+                  <div>PhD Student</div>
+                  <div>ECE</div>
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title">Saranya Vijaykumar</h5>
+                  <img src="https://csd.cmu.edu/sites/default/files/2023-10/VIJAYAKUMAR-Saranya-f23.png", class="img-thumbnail rounded-circle", height="150px", width="150px">
+                  <div>PhD Student</div>
+                  <div>Computer Science</div>
+                </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Ryan Wagner</h5>
+                    <img src="https://se-phd.isri.cmu.edu/images/people/students/wagner-ryan.jpg", class="img-thumbnail rounded-circle", height="150px", width="150px">
+                    <div>PhD Student</div>
+                    <div>Computer Science</div>
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Weichen Yu</h5>
+                    <img src="https://scholar.google.com/citations/images/avatar_scholar_256.png", class="img-thumbnail rounded-circle", height="150px", width="150px">
+                    <div>PhD Student</div>
+                    <div>ECE</div>
+                  </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title">Andy Zou</h5>
+                  <img src="https://scholar.google.com/citations/images/avatar_scholar_256.png", class="img-thumbnail rounded-circle", height="150px", width="150px">
+                  <div>PhD Student</div>
+                  <div>Computer Science</div>
+                </div>
+            </div>  
+
+              <h5 class="card-title">Former</h5>
+              <div class="d-flex justify-content-center flex-wrap">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Emily Black</h5>
+                    <img src="https://www.cs.cmu.edu/~emilybla/img/prof.jpg", class="img-thumbnail rounded-circle", height="150px", width="150px">
+                    <div>PhD Student</div>
+                    <div>Computer Science Department</div>
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Klas Leino</h5>
+                    <img src="https://scholar.google.com/citations/images/avatar_scholar_256.png", class="img-thumbnail rounded-circle", height="150px", width="150px">
+                    <div>PhD Student</div>
+                    <div>Computer Science Department</div>
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Zifan Wang</h5>
+                    <img src="images/zifanw.png", class="img-thumbnail rounded-circle", height="150px", width="150px">
+                    <div>PhD Student</div>
+                    <div>Electrical and Computer Engineering</div>
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Samuel Yeom</h5>
+                    <img src="https://scholar.google.com/citations/images/avatar_scholar_256.png", class="img-thumbnail rounded-circle", height="150px", width="150px">
+                    <div>PhD Student</div>
+                    <div>Computer Science Department</div>
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Han Zhang</h5>
+                    <img src="images/hanzh.png", class="img-thumbnail rounded-circle", height="150px", width="150px">
+                    <div>PhD Student</div>
+                    <div>Computer Science Department</div>
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title longname">Arthur Azevedo de Amorim</h5>
+                    <img src="images/arthuraa.png", class="img-thumbnail rounded-circle", height="150px", width="150px">
+                    <div>Postdoc</div>
+                    <div></div>
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Abhishek Bichhawat</h5>
+                    <img src="images/abhishekb.png", class="img-thumbnail rounded-circle", height="150px", width="150px">
+                    <div>Postdoc</div>
+                    <div></div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-grid">
+            <button class="btn btn-light expander collapsed" expand-target="#people" collapse-height="600px">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-bar-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="accordion-item" id="teaching-container">
+          <a class="anchor" id="teaching-top"></a>
+          <h3 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#teaching">
+              <br>
+              Teaching
+            </button>
+          </h3>
+
+          <div class="highlights accordion-collapse collapse show" id="teaching">
+            <div class="accordion-body">
+            <dl class="dl-horizontal dl-unstyled">
+
+              <dt><a href="https://15316-cmu.github.io/index.html"><i>15-316</i> Software Foundations of Security and Privacy</a></dt>
+
+              <dt><a href="https://cs.cmu.edu/~15414"><i>15-414</i> Bug Catching: Automated Program Verification and Testing</a></dt>
+
+            </dl>
+            </div>
+            <br><br>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="pubs.js"></script>
+  <script src="makepubs.js"></script>
+  <script src="news.js"></script>
+  <script src="makenews.js"></script>
+  </div>
+
+</body>
 
 </html>

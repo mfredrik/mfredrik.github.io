@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>LASERBOT</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Bootswtrap switch -->
+    <link href="assets/css/highlight.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-switch.css" rel="stylesheet">    
+    <link href="http://getbootstrap.com/assets/css/docs.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="theme.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body role="document">
+
+   <div class="container theme-showcase" role="main">
+      
+      <div class="jumbotron">
+        <h1>LASERBOT</h1>
+        <p>Interact with the controls below to make LASERBOT do things.</p>
+        
+        <form id="main">      
+          <p>
+            <table cellpadding="5" cellspacing="5" width="50%">
+              <tr>
+                <td><strong>Random</strong></td> <td><input id="random-switch" type="checkbox" checked></td>
+              </tr>
+              <tr>
+                <td><strong>Manual</strong></td> <td><input id="manual-switch" type="checkbox" checked></td>
+              </tr>              
+              <tr>
+                <td><strong>Path</strong></td> <td><input id="path-switch" type="checkbox" checked></td>
+              </tr>                            
+              <tr>                
+                <td><strong>Laser</strong></td> <td><input id="laser-switch" type="checkbox" checked></td>
+              </tr>              
+            </table>
+          </p>
+          <br>
+          <center>
+          <canvas style="margin:0;padding:0;position:relative;left:0px;top:0px;border:3px solid #ffffff" id="move-canvas" width="180" height="180"></canvas>
+          <br>
+          <button type="button" class="btn btn-success" id="set-path">Set Path</button>
+          </center>
+        </form>
+
+      </div>
+        
+      </p>
+
+    </div>
+
+
+   <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="assets/js/bootstrap.min.js"></script>    
+    <script src="assets/js/highlight.js"></script>      
+    <script src="assets/js/bootstrap-switch.js"></script>      
+    <script src="main.js"></script>
+  </body>
+</html>

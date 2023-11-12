@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="favicon.ico">
+
+  <title>Matt Fredrikson</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <!-- Bootstrap theme -->
+  <link href="assets/css/bootstrap-theme.css" rel="stylesheet">
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="theme.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/ie-emulation-modes-warning.js"></script>
+  <script src="assets/js/ga.js"></script>
+  <script src="assets/js/pubfilters.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body role="document">
+
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container banner">
+      <div class="container header-bar">
+        <div class="row">
+          <div class="col-sm-10">
+            <h2>Matt Fredrikson</h2>
+            <ul class="contactlist">
+              <li><span class="avoidwrap"><span class='glyphicon glyphicon-envelope'></span> mfredrik [at]
+                  cs.cmu.edu</span></li>
+              <li><span class="avoidwrap"><span class='glyphicon glyphicon-map-marker'></span> CIC 2126</span></li>
+              <li><span class="avoidwrap"><span class='glyphicon glyphicon-earphone'></span> 412/268-3992</span></li>
+            </ul>
+            <p>
+              <h4>
+                Assistant Professor<br>
+                <span class="avoidwrap">School of Computer Science</span><br>
+                Carnegie Mellon University
+              </h4>
+            </p>
+          </div>
+          <div class="col-sm-2 hidden-xs">
+            <img src="images/mfredrik.jpg" width=144>
+          </div>
+        </div>
+      </div>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-left">
+          <li><a href="index.html">Overview</a></li>
+          <li><a href="#">Research</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container bodytext">
+
+    <h3>Research group</h3>
+    <hr>
+
+    <ul class="list-unstyled">
+      <!-- <li>Arthur Azevedo de Amorim (postdoc)</li> -->
+      <!-- <li>Abhishek Bichhawat (postdoc)</li> -->
+      <li>Emily Black (PhD)</li>
+      <li>Klas Leino (PhD)</li>
+      <li>Ryan Wagner (PhD, co-advised with David Garlan)</li>
+      <li>Zifan Wang (PhD, co-advised with Anupam Datta)</li>
+      <li>Sam Yeom (PhD)</li>
+      <li>Han Zhang (PhD, co-advised with Yuvraj Agarwal)</li>
+    </ul>
+
+    <h3>Publications</h3>
+    <hr>
+
+    <div align="center">
+      <button class="btn filter-button active" data-filter="all">All</button>
+      <button class="btn filter-button" data-filter="tai">Fair and Trustworthy AI</button>
+      <button class="btn filter-button" data-filter="sec">Security</button>
+      <button class="btn filter-button" data-filter="fm">PL &amp; Formal Methods</button>
+      <button class="btn filter-button" data-filter="pri">Privacy</button>
+    </div>
+    <br>
+    <div align="center">
+      <button class="btn filter-button" data-filter="2021">2021</button>
+      <button class="btn filter-button" data-filter="2020">2020</button>
+    </div>
+    <p>
+    <div align="center">
+      <button class="btn filter-button" data-filter="2019">2019</button>
+      <button class="btn filter-button" data-filter="2018">2018</button>
+      <button class="btn filter-button" data-filter="2017">2017</button>
+      <button class="btn filter-button" data-filter="2016">2016</button>
+      <button class="btn filter-button" data-filter="2015">2015</button>
+      <button class="btn filter-button" data-filter="2014">2014</button>
+      <button class="btn filter-button" data-filter="2013">2013</button>
+      <button class="btn filter-button" data-filter="2012">2012</button>
+      <button class="btn filter-button" data-filter="2011">2011</button>
+      <button class="btn filter-button" data-filter="2010">2010</button>
+      <button class="btn filter-button" data-filter="2009">2009</button>
+      <button class="btn filter-button" data-filter="2008">2008</button>
+    </div>
+    <br>
+
+    <dl id="pubs" class="dl-horizontal dl-unstyled">
+
+      <div class="filter tai 2021">
+      <dt><a href="https://arxiv.org/pdf/2103.11257.pdf">[pdf]</a> </dt>
+      <dd>
+        <i>Boundary Attributions Provide Normal (Vector) Explanations.</i>
+        <br>
+        <a href="https://zifanw.github.io/">Zifan Wang</a>, Matt Fredrikson, <a href="http://www.andrew.cmu.edu/user/danupam/">Anupam Datta</a>
+        <br>
+        2021 <i>Preprint</i>.
+      </dd>
+      </div>
+
+      <div class="filter tai sec 2021">
+      <dt><a href="papers/kleino_gloro21.pdf">[pdf]</a> </dt>
+      <dd>
+        <i>Globally-Robust Neural Networks.</i>
+        <br>
+        <a href="http://www.cs.cmu.edu/~kleino/">Klas Leino</a>, <a href="https://zifanw.github.io/">Zifan Wang</a>, Matt Fredrikson
+        <br>
+        2021 International Conference on Machine Learning (ICML).
+      </dd>
+      </div>
+
+      <div class="filter sec 2021">
+      <dt class="text-secondary">[pdf]</dt>
+      <dd>
+        <i>Capture: Centralized Library Management for Heterogeneous IoT Devices.</i>
+        <br>
+        <a href="https://zhanghan177.me/">Han Zhang</a>, Abhijith Anilkumar, Matt Fredrikson, <a href="synergylabs.org/yuvraj/">Yuvraj Agarwal</a>
+        <br>
+        2021 Usenix Security Symposium.
+      </dd>
+      </div>
+
+      <div class="filter tai sec fm 2021">
+      <dt><a href="https://openreview.net/pdf?id=zWy1uxjDdZJ">[pdf]</a> </dt>
+      <dd>
+        <i>Fast Geometric Projections for Local Robustness Certification.</i>
+        <br>
+        <a href="https://users.ece.cmu.edu/~afromher/">Aymeric Fromherz</a>, <a href="http://www.cs.cmu.edu/~kleino/">Klas Leino</a>, Matt Fredrikson, <a href="https://www.andrew.cmu.edu/user/bparno/publication.html">Bryan Parno</a>, <a href="https://ti.arc.nasa.gov/profile/pcorina/">Corina Pasareanu</a>
+        <br>
+        2021 International Conference on Learning Representations (ICLR) <strong class="text-danger">(spotlight)</strong>.
+      </dd>
+      </div>
+
+      <div class="filter tai 2021">
+      <dt><a href="https://www.cs.cmu.edu/~mfredrik/papers/emblack_facct21.pdf">[pdf]</a> </dt>
+      <dd>
+        <i>Leave-one-out Unfairness.</i>
+        <br>
+        <a href="https://www.cs.cmu.edu/~emilybla/">Emily Black</a>, Matt Fredrikson.
+        <br>
+        2021 ACM Conference on Fairness, Accountability, and Transparency (FAccT).
+      </dd>
+      </div>
+
+      <div class="filter sec fm 2021">
+      <dt><a href="papers/bicchawat_csf21.pdf">[pdf]</a></dt>
+      <dd>
+        <i>Automating Audit with Policy Inference</i>
+        <br>
+        <a href="https://www.cs.cmu.edu/~abichhaw/">Abhishek Bichhawat</a>, Matt Fredrikson, <a href="https://www.cs.cmu.edu/~jyang2/">Jean Yang</a>
+        <br>
+        2021 Computer Security Foundations Symposium (CSF).
+      </dd>
+      </div>
+
+      <div class="filter sec fm 2021">
+      <dt><a href="papers/zhang_vmcai21.pdf">[pdf] </a> </dt>
+      <dd>
+        <i>Netter: Probablistic, Stateful Network Models.</i>
+        <br>
+        <a href="https://zhanghan177.me/">Han Zhang</a>, Chi Zhang, <a href="http://arthuraa.net/">Arthur Azevedo de Amorim</a>, <a href="synergylabs.org/yuvraj/">Yuvraj Agarwal</a>, Matt Fredrikson, <a href="https://www.andrew.cmu.edu/user/liminjia/">Limin Jia</a>.
+        <br>
+        2021 International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI).
+      </dd>
+      </div>
+
+      <div class="filter tai sec 2020">
+      <dt><a href="https://papers.nips.cc/paper/2020/file/9d94c8981a48d12adfeecfe1ae6e0ec1-Paper.pdf">[pdf] </a> </dt>
+      <dd>
+        <i>Smoothed Geometry for Robust Attribution.</i>
+        <br>
+        <a href="https://zifanw.github.io/">Zifan Wang</a>, Haofan Wang, Shakul Ramkumar, Matt Fredrikson, <a href="https://piotr.mardziel.com/">Piotr Mardziel</a>, <a href="http://www.andrew.cmu.edu/user/danupam/">Anupam Datta</a>
+        <br>
+        2020 Neural Information Processing Systems (NeurIPS).
+      </dd>
+      </div>
+
+      <div class="filter tai pri 2020">
+      <dt><a href="https://www.usenix.org/system/files/sec20-leino.pdf">[pdf] </a> </dt>
+      <dd>
+        <i>Stolen Memories: Leveraging Model Memorization for Calibrated White-Box Membership Inference.</i>
+        <br>
+        <a href="http://www.cs.cmu.edu/~kleino/">Klas Leino</a>, Matt Fredrikson.
+        <br>
+        2020 Usenix Security Symposium.
+      </dd>
+      </div>
+
+      <div class="filter tai 2020">
+      <dt><a href="https://www.ijcai.org/Proceedings/2020/0061.pdf">[pdf]</a> </dt>
+      <dd>
+        <i>Individual Fairness Revisited: Transferring Techniques from Adversarial Robustness.</i>
+        <br>
+        <a href="https://www.samuelyeom.com/">Samuel Yeom</a>, Matt Fredrikson.
+        <br>
+        2020 International Joint Conference on Artificial Intelligence (IJCAI).
+      </dd>
+      </div>
+
+      <div class="filter tai 2020">
+      <dt><a href="http://proceedings.mlr.press/v108/tan20a/tan20a.pdf">[pdf]</a></dt>
+      <dd>
+        <i>Learning Fair Representations for Kernel Models.</i>
+        <br>
+        Zilong Tan, <a href="https://www.samuelyeom.com/">Samuel Yeom</a>, Matt Fredrikson, <a href="https://www.cs.cmu.edu/~atalwalk/">Ameet Talwalkar</a>
+        <br>
+        2020 International Conference on Artificial Intelligence and Statistics (AISTATS).
+      </dd>
+      </div>
+
+      <div class="filter fm sec 2020">
+      <dt><a href="http://arthuraa.net/docs/glio-full.pdf">[pdf]</a> </dt>
+      <dd>
+        <i>Reconciling Noninterference and Gradual Typing.</i>
+        <br>
+        <a href="http://arthuraa.net/">Arthur Azevedo de Amorim</a>, Matt Fredrikson, <a href="https://www.andrew.cmu.edu/user/liminjia/">Limin Jia</a>.
+        <br>
+        2020 ACM/IEEE Symposium on Logic in Computer Science (LICS).
+      </dd>
+      </div>
+
+      <div class="filter tai 2020">
+      <dt><a href="https://www.aclweb.org/anthology/2020.acl-main.430.pdf">[pdf]</a> </dt>
+      <dd>
+        <i>Influence Paths for Characterizing Subject-Verb Number Agreement in LSTM Language Models.</i>
+        <br>
+        Kaiji Lu, <a href="https://piotr.mardziel.com/">Piotr Mardziel</a>, <a href="http://www.cs.cmu.edu/~kleino/">Klas Leino</a>, Matt Fredrikson, <a href="http://www.andrew.cmu.edu/user/danupam/">Anupam Datta</a>.
+        <br>
+        2020 Meeting of the Association for Computational Linguistics (ACL).
+      </dd>
+      </div>
+
+      <div class="filter sec pri 2020">
+      <dt><a href="https://dl.acm.org/doi/pdf/10.1145/3320269.3384759">[pdf]</a></dt>
+      <dd>
+        <i>Contextual and Granular Policy Enforcement in Database-Backed Applications.</i>
+        <br>
+        <a href="https://www.cs.cmu.edu/~abichhaw/">Abhishek Bichhawat</a>, Akash Trehan, <a href="https://www.cs.cmu.edu/~jyang2/">Jean Yang</a>, Matt Fredrikson
+        <br>
+        2020 ACM ASIA Conference on Computer and Communications Security (AsiaCCS)
+      </dd>
+      </div>
+
+      <div class="filter tai 2020">
+      <dt><a href="https://openaccess.thecvf.com/content_CVPRW_2020/papers/w1/Wang_Interpreting_Interpretations_Organizing_Attribution_Methods_by_Criteria_CVPRW_2020_paper.pdf">[pdf]</a> </dt>
+      <dd>
+        <i>Interpreting Interpretations: Organizing Attribution Methods by Criteria.</i>
+        <br>
+        <a href="https://zifanw.github.io/">Zifan Wang</a>, <a href="https://piotr.mardziel.com/">Piotr Mardziel</a>, <a href="http://www.andrew.cmu.edu/user/danupam/">Anupam Datta</a>, Matt Fredrikson
+        <br>
+        2020 CVPR Workshop on Fair, Data Efficient, and Trusted Computer Vision.
+      </dd>
+      </div>
+
+      <div class="filter tai pri 2020">
+      <dt><a href="https://content.iospress.com/download/journal-of-computer-security/jcs191362?id=journal-of-computer-security%2Fjcs191362">[pdf]</a></dt>
+      <dd>
+        <i>Overfitting, Robustness, and Malicious Algorithms: A study of potential causes of privacy risk in machine learning.</i>
+        <br>
+        <a href="https://www.samuelyeom.com/">Samuel Yeom</a>, <a href="https://irenegiacomelli.weebly.com/">Irene Giacomelli</a>, Alan Menaged, Matt Fredrikson, <a href="http://pages.cs.wisc.edu/~jha/">Somesh Jha</a>
+        <br>
+        Journal of Computer Security 28(1): 35-70 (2020)
+      </dd>
+      </div>
+
+      <div class="filter tai 2020">
+      <dt><a href="https://dl.acm.org/doi/pdf/10.1145/3351095.3372845">[pdf]</a>  </dt>
+      <dd>
+        <i>FlipTest: Fairness Auditing via Optimal Transport.</i>
+        <br>
+        <a href="https://www.cs.cmu.edu/~emilybla/">Emily Black</a>, <a href="https://www.samuelyeom.com/">Samuel Yeom</a>, Matt Fredrikson.
+        <br>
+        2020 ACM Conference on Fairness, Accountability, and Transparency (FAT*).
+      </dd>
+      </div>
+
+      <div class="filter pri 2019">
+      <dt><a href="papers/jin_ubicomp19.pdf">[pdf]</a></dt>
+      <dd>
+        <i>"Why Are They Collecting My Data?": Inferring the Purposes of
+          Network Traffic in Mobile Apps.</i>
+        <br>
+        <a href="http://shift-3.com/">Haojian Jin</a>, Minyi Liu, Kevan Dohia, Yuanchun Li, Gaurav Srivastava, Matt Fredrikson, <a href="synergylabs.org/yuvraj/">Yuvraj Agarwal</a> and J.
+        Hong.
+        <br>
+        2019 ACM Transactions on Interactive, Mobile, Wearable Ubiquitous Technology (IMWUT/Ubicomp).
+      </dd>
+      </div>
+
+      <div class="filter tai 2019">
+      <dt><a href="papers/leino_iclr19.pdf">[pdf]</a></dt>
+      <dd>
+        <i>Feature-wise Bias Amplification.</i>
+        <br>
+        <a href="http://www.cs.cmu.edu/~kleino/">Klas Leino</a>, <a href="https://www.cs.cmu.edu/~emilybla/">Emily Black</a>, Matt Fredrikson, <a href="https://www.cs.cmu.edu/afs/cs/Web/People/shayaks/">Shayak Sen</a>, <a href="http://www.andrew.cmu.edu/user/danupam/">Anupam Datta</a>
+        <br>
+        2019 International Conference on Learning Representations (ICLR).
+      </dd>  
+      </div>
+
+      <div class="filter tai 2018">
+      <dt><a href="papers/Yeom18-nips.pdf">[pdf]</a></dt>
+      <dd>
+        <i>Hunting for Discriminatory Proxies in Linear Regression Models.</i>
+        <br>
+        <a href="https://www.samuelyeom.com/">Samuel Yeom</a>, <a href="http://www.andrew.cmu.edu/user/danupam/">Anupam Datta</a>, Matt Fredrikson
+        <br>
+        2018 Conference on Neural Information Processing (NeurIPS).
+      </dd>
+      </div>
+
+      <div class="filter tai 2018">
+      <dt><a href="https://arxiv.org/abs/1802.03788">[pdf]</a></dt>
+      <dd>
+        <i>Influence-Directed Explanations for Deep Convolutional Networks.</i>
+        <br>
+        <a href="http://www.cs.cmu.edu/~kleino/">Klas Leino</a>, Linyi Li, <a href="https://www.cs.cmu.edu/afs/cs/Web/People/shayaks/">Shayak Sen</a>, <a href="http://www.andrew.cmu.edu/user/danupam/">Anupam Datta</a>, Matt Fredrikson
+        <br>
+        2018 Proceedings of the IEEE International Test Conference.
+      </dd>
+      </div>
+
+      <div class="filter tai pri 2018">
+      <dt><a href="https://arxiv.org/abs/1709.01604">[pdf]</a></dt>
+      <dd>
+        <i>Privacy Risk in Machine Learning: Analyzing the Connection to Overfitting.</i>
+        <br>
+        <a href="https://www.samuelyeom.com/">Samuel Yeom</a>, <a href="https://irenegiacomelli.weebly.com/">Irene Giacomelli</a>, Matt Fredrikson, <a href="http://pages.cs.wisc.edu/~jha/">Somesh Jha</a>
+        <br>
+        2018 IEEE Computer Security Foundations Symposium (CSF).
+        <br>
+        <strong class="text-danger">(Distinguished Paper Award)</strong>
+      </dd>
+      </div>
+
+      <div class="filter tai 2018">
+      <dt><a href="https://arxiv.org/abs/1803.10815">[pdf]</a></dt>
+      <dd>
+        <i>Supervising Feature Influence.</i>
+        <br>
+        <a href="https://www.cs.cmu.edu/afs/cs/Web/People/shayaks/">Shayak Sen</a>, <a href="https://piotr.mardziel.com/">Piotr Mardziel</a>, <a href="http://www.andrew.cmu.edu/user/danupam/">Anupam Datta</a>, Matt Fredrikson
+        <br>
+        2018 <i>Preprint</i>
+      </dd>
+      </div>
+
+      <div class="filter tai 2017">
+      <dt><a href="https://arxiv.org/abs/1707.08120">[pdf]</a></dt>
+      <dd>
+        <i>Proxy Non-Discrimination in Data-Driven Systems.</i>
+        <br>
+        <a href="http://www.andrew.cmu.edu/user/danupam/">Anupam Datta</a>, Matt Fredrikson, Gihyuk Ko, <a href="https://piotr.mardziel.com/">Piotr Mardziel</a>, <a href="https://www.cs.cmu.edu/afs/cs/Web/People/shayaks/">Shayak Sen</a>
+        <br>
+        2017 <i>Preprint</i>
+      </dd>
+      </div>
+
+      <div class="filter tai pri 2017">
+      <dt><a href="https://dl.acm.org/doi/pdf/10.1145/3133956.3134097">[pdf]</a></dt>
+      <dd>
+        <i>Use Privacy in Data-Driven Systems: Theory and Experiments with Machine Learnt Programs.</i>
+        <br>
+        <a href="http://www.andrew.cmu.edu/user/danupam/">Anupam Datta</a>, Matt Fredrikson, Gihyuk Ko, <a href="https://piotr.mardziel.com/">Piotr Mardziel</a>, <a href="https://www.cs.cmu.edu/afs/cs/Web/People/shayaks/">Shayak Sen</a>
+        <br>
+        2017 ACM Conference on Computer and Communications Security (CCS).
+      </dd>
+      </div>
+
+      <div class="filter pri 2017">
+      <dt><a href="https://arxiv.org/abs/1708.06384">[pdf]</a></dt>
+      <dd>
+        <i>PrivacyProxy: Leveraging Crowdsourcing and In Situ Traffic Analysis to Detect and Mitigate Information
+          Leakage.</i>
+        <br>
+        Gaurav Srivastava, Saksham Chitkara, Kunal Ku, Swarup Kumar Sahoo, Matt Fredrikson, <a href="http://www.cs.cmu.edu/~jasonh/">Jason Hong</a>, <a href="synergylabs.org/yuvraj/">Yuvraj Agarwal</a>
+        <br>
+        2017 <i>Preprint</i>
+      </dd>
+      </div>
+
+      <div class="filter pri 2017">
+      <dt><a href="papers/Li17Ubicomp.pdf">[pdf]</a></dt>
+      <dd>
+        <i>PrivacyStreams: Enabling Transparency in Personal Data Processing for Mobile Apps.</i>
+        <br>
+        Yuanchun Li, Fanglin Chen, Toby Jia-Jun Li, Yao Guo, Gang Huang, Matt Fredrikson, <a href="synergylabs.org/yuvraj/">Yuvraj Agarwal</a>, <a href="http://www.cs.cmu.edu/~jasonh/">Jason Hong</a>
+        <br>
+        2017 ACM Transactions on Interactive, Mobile, Wearable Ubiquitous Technology (IMWUT/Ubicomp).
+      </dd>
+      </div>
+
+      <div class="filter sec fm 2017">
+      <dt><a href="papers/Ngo17Oakland.pdf">[pdf]</a>
+      </dt>
+      <dd>
+        <i>Verifying and Synthesizing Constant-Resource Implementations with Types</i>
+        <br>
+        Van Chan Ngo, M. Dehesa-Azuara, Matt Fredrikson, <a href="https://www.cs.cmu.edu/~janh/">Jan Hoffmann</a>
+        <br>
+        2017 IEEE Symposium on Security &amp; Privacy (Oakland).
+      </dd>
+      </div>
+
+      <div class="filter pri fm 2016">
+      <dt><a href="papers/wfjn_csf16.pdf">[pdf]</a></dt>
+      <dd>
+        <i>A Methodology for Formalizing Model-Inversion Attacks.</i>
+        <br>
+        Xifan Wu, Matt Fredrikson, <a href="http://pages.cs.wisc.edu/~jha/">Somesh Jha</a>, and <a href="http://pages.cs.wisc.edu/~naughton/">Jeff Naughton</a>.
+        <br>
+        2016 IEEE Computer Security Foundations Symposium (CSF).
+      </dd>
+      </div>
+
+      <div class="filter tai sec 2016">
+      <dt><a href="http://arxiv.org/abs/1511.07528">[pdf]</a></dt>
+      <dd>
+        <i>The Limitations of Deep Learning in Adversarial Settings.</i>
+        <br>
+        N. Papernot, P. McDaniel, <a href="http://pages.cs.wisc.edu/~jha/">Somesh Jha</a>, Matt Fredrikson, Z. Berkay Celik, A. Swami.
+        <br>
+        2016 IEEE European Symposium on Security &amp; Privacy (EuroSP).
+      </dd>
+      </div>
+
+      <div class="filter tai pri 2015">
+      <dt><a href="http://arxiv.org/abs/1512.06388">[pdf]</a></dt>
+      <dd>
+        <i>Revisiting Differentially Private Regression: Lessons From Learning Theory and their Consequences.</i>
+        <br>
+        <a href="http://andrewxiwu.github.io/">Xi Wu</a>, Matt Fredrikson, W. Wu, <a href="http://pages.cs.wisc.edu/~jha/">Somesh Jha</a>, and <a href="http://pages.cs.wisc.edu/~naughton/">Jeff Naughton</a>.
+        <br>
+        2015 <i>Preprint</i>
+      </dd>
+      </div>
+
+      <div class="filter tai sec pri 2015">
+      <dt><a href="papers/fjr2015ccs.pdf">[pdf]</a></dt>
+      <dd>
+        <i>Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures.</i>
+        <br>
+        Matt Fredrikson, <a href="http://pages.cs.wisc.edu/~jha/">Somesh Jha</a>, <a href="https://rist.tech.cornell.edu/">Tom Ristenpart</a>
+        <br>
+        2015 ACM Conference on Computer and Communications Security (CCS).
+      </dd>
+      </div>
+
+      <div class="filter sec 2015">
+      <dt><a href="http://eprint.iacr.org/2015/097">[pdf]</a></dt>
+      <dd>
+        <i>Surreptitiously Weakening Cryptographic Systems</i>
+        <br>
+        <a href="https://www.schneier.com/">Bruce Schneier</a>, Matt Fredrikson, <a href="https://homes.cs.washington.edu/~yoshi/">Yoshi Kohno</a>, <a href="https://rist.tech.cornell.edu/">Tom Ristenpart</a>.
+        <br>
+        Cryptology ePrint Archive, Report 2015/097, February 2015.
+      </dd>
+      </div>
+
+      <div class="filter tai pri 2014">
+      <dt><a href="papers/fredrikson-usenix14-genomic.pdf">[pdf]</a></dt>
+      <dd>
+        <i>Privacy in Pharmacogenetics: An End-to-End Case Study of Personalized Warfarin Dosing.</i>
+        <br>
+        Matt Fredrikson, Eric Lantz, <a href="http://pages.cs.wisc.edu/~jha/">Somesh Jha</a>, <a href="https://www.nationwidechildrens.org/find-a-doctor/profiles/simon-m-lin">Simon M. Lin</a>, <a href="http://pages.cs.wisc.edu/~dpage/">C. David Page</a>, <a href="https://rist.tech.cornell.edu/">Tom Ristenpart</a>
+        <br>
+        2014 Usenix Security Symposium.
+        <br>
+        <strong class="text-danger">(Best Paper Award)</strong>
+      </dd>
+      </div>
+
+      <div class="filter sec pri 2014">
+      <dt><a href="papers/fl-usenix14-z0.pdf">[pdf]</a></dt>
+      <dd>
+        <i>Z0: An Optimizing Distributing Zero-Knowledge Compiler.</i>
+        <br>
+        Matt Fredrikson, <a href="https://www.doc.ic.ac.uk/~livshits/">Ben Livshits</a>
+        <br>
+        2014 Usenix Security Symposium.
+      </dd>
+      </div>
+
+      <div class="filter sec 2014">
+      <dt><a href="papers/DualECTLS.pdf">[pdf]</a></dt>
+      <dd>
+        <i>On the Practical Exploitability of Dual EC in TLS Implementations.</i>
+        <br>
+        <a href="https://checkoway.net/">Stephen Checkoway</a>, Matt Fredrikson, <a href="http://polycephaly.org/">Ruben Niederhagen</a>, <a href="https://isi.jhu.edu/~mgreen/">Matthew Green</a>, <a href="https://www.hyperelliptic.org/tanja/">Tanja Lange</a>, <a href="https://rist.tech.cornell.edu/">Tom Ristenpart</a>, <a href="https://cr.yp.to/djb.html">D. J. Bernstein</a>, <a href="https://jakemask.com/">Jacob Maskiewicz</a>,
+        <a href="https://www.cs.utexas.edu/~hovav/">Hovav Shacham</a>
+        <br>
+        2014 Usenix Security Symposium.
+      </dd>
+      </div>
+
+      <div class="filter pri 2014">
+      <dt><a href="papers/acsac2014.pdf">[pdf]</a></dt>
+      <dd>
+        <i>MoRePriv: Mobile OS Support for Application Personalization and Privacy.</i>
+        <br>
+        <a href="https://ittc.ku.edu/~drew/">Drew Davidson</a>, Matt Fredrikson, <a href="https://www.doc.ic.ac.uk/~livshits/">Ben Livshits</a>
+        <br>
+        2014 Annual Computer Security Applications Conference (ACSAC).
+      </dd>
+      </div>
+
+      <div class="filter fm pri 2014">
+      <dt><a href="papers/fj-lics2014-tr.pdf">[pdf]</a></dt>
+      <dd>
+        <i>Satisfiability Modulo Counting: A New Approach for Analyzing Privacy Properties.</i>
+        <br>
+        Matt Fredrikson, <a href="http://pages.cs.wisc.edu/~jha/">Somesh Jha</a>
+        <br>
+        2014 Joint Meeting of Computer Science Logic and Logic in Computer Science (CSL-LICS).
+      </dd>
+      </div>
+
+      <div class="filter fm sec 2012">
+      <dt><a href="papers/CAV12-JAM.pdf">[pdf]</a></dt>
+      <dd>
+        <i>Efficient Runtime Policy Enforcement Using Counterexample-Guided Abstraction Refinement.</i>
+        <br>
+        Matt Fredrikson, Richard Joiner, <a href="http://pages.cs.wisc.edu/~jha/">Somesh Jha</a>, <a href="http://pages.cs.wisc.edu/~reps/">Thomas Reps</a>, <a href="https://www.sri.com/bios/phillip-porras/">Phillip Porras</a>, <a href="http://www.csl.sri.com/users/saidi/">Hassen Saidi</a>, and <a href="http://www.csl.sri.com/users/vinod/">Vinod Yegneswaran</a>
+        <br>
+        Computer Aided Verification 2012 (CAV).
+      </dd>
+      </div>
+
+      <div class="filter pri 2011">
+      <dt><a href="papers/fredrikson-w2sp.pdf">[pdf]</a></dt>
+      <dd>
+        <i>Towards Enforceable Data-Driven Privacy Policies.</i>
+        <br>
+        Matt Fredrikson, <a href="https://ittc.ku.edu/~drew/">Drew Davidson</a>, <a href="http://pages.cs.wisc.edu/~jha/">Somesh Jha</a>, <a href="https://www.doc.ic.ac.uk/~livshits/">Ben Livshits</a>
+        <br>
+        2011 Workshop on Web 2.0 Security and Privacy (W2SP).
+      </dd>
+      </div>
+
+      <div class="filter fm sec 2011">
+      <dt><a href="papers/matching-cade11.pdf">[pdf]</a></dt>
+      <dd>
+        <i>Dynamic Behavior Matching: A Complexity Analysis and New Approximation Algorithms.</i>
+        <br>
+        Matt Fredrikson, <a href="https://www.christodorescu.org/">Mihai Christodorescu</a>, <a href="http://pages.cs.wisc.edu/~jha/">Somesh Jha</a>.
+        <br>
+        2011 Conference on Automated Deduction (CADE).
+      </dd>
+      </div>
+
+      <div class="filter pri fm 2011">
+      <dt><a href="papers/oakland11.pdf">[pdf]</a></dt>
+      <dd>
+        <i>RePriv: Re-Envisioning In-Browser Privacy.</i>
+        <br>
+        Matt Fredrikson, <a href="https://www.doc.ic.ac.uk/~livshits/">Ben Livshits</a>.
+        <br>
+        2011 IEEE Symposium on Security & Privacy (Oakland).
+      </dd>
+      </div>
+
+      <div class="filter fm sec 2011">
+      <dt><a href="papers/ibex11.pdf">[pdf]</a></dt>
+      <dd>
+        <i>Verified Security for Browser Extensions.</i>
+        <br>
+        A. Guha, Matt Fredrikson, N. Swamy, <a href="https://www.doc.ic.ac.uk/~livshits/">Ben Livshits</a>.
+        <br>
+        2011 IEEE Symposium on Security & Privacy (Oakland).
+      </dd>
+      </div>
+
+      <div class="filter sec 2011">
+      <dt><a href="http://dx.doi.org/10.1007/978-1-4614-0977-9_7">[doi]</a></dt>
+      <dd>
+        <i>End-to-End Software Diversification of Internet Services.</i>
+        <br>
+        <a href="https://www.christodorescu.org/">Mihai Christodorescu</a>, Matt Fredrikson, <a href="http://pages.cs.wisc.edu/~jha/">Somesh Jha</a>, Jon Giffin
+        <br>
+        In Moving Target Defense,
+        2011, Springer New York.
+      </dd>
+      </div>
+
+      <div class="filter sec 2010">
+      <dt><a href="papers/Paleari.pdf">[pdf]</a></dt>
+      <dd>
+        <i>Automatic Generation of Remediation Procedures for Malware Infections.</i>
+        <br>
+        R. Paleari, L. Martignoni, E. Passerini, D. Davidson, Matt Fredrikson, J. Giffin, <a href="http://pages.cs.wisc.edu/~jha/">Somesh Jha</a>.
+        <br>
+        2010 Usenix Security Symposium.
+      </dd>
+      </div>
+
+      <div class="filter fm sec 2010">
+      <dt><a href="papers/oakland20_malware.pdf">[pdf]</a></dt>
+      <dd>
+        <i>Synthesizing Near-Optimal Malware Specifications from Suspicious Behaviors.</i>
+        <br>
+        Matt Fredrikson, <a href="https://www.christodorescu.org/">Mihai Christodorescu</a>, <a href="http://pages.cs.wisc.edu/~jha/">Somesh Jha</a>, Reiner Sailer, <a href="https://www.cs.ucsb.edu/people/faculty/yan">Xifeng Yan</a>.
+        <br>
+        2010 IEEE Symposium on Security & Privacy (Oakland).
+      </dd>
+      </div>
+
+      <div class="filter fm sec 2010">
+      <dt><a href="http://dx.doi.org/10.1007/978-1-4419-0140-8_9">[doi]</a></dt>
+      <dd>
+        <i>A Declarative Framework for Intrusion Analysis.</i>
+        <br>
+        Matt Fredrikson, <a href="https://www.christodorescu.org/">Mihai Christodorescu</a>, Jon Giffin, <a href="http://pages.cs.wisc.edu/~jha/">Somesh Jha</a>.
+        <br>
+        In Cyber-Situational Awareness, Editors: Sushil Jajodia, Peng Liu, Vipin Swarup, Clifford Wang.
+        2010, Springer New York.
+      </dd>
+      </div>
+
+      <div class="filter sec 2009">
+      <dt><a href="papers/vldb09-80.pdf">[pdf]</a></dt>
+      <dd>
+        <i>Mining Graph Patterns Efficiently via Randomized Summaries.</i>
+        <br>
+        C. Chen, C. X. Lin, Matt Fredrikson, <a href="https://www.christodorescu.org/">Mihai Christodorescu</a>, <a href="https://www.cs.ucsb.edu/people/faculty/yan">Xifeng Yan</a>, <a href="http://hanj.cs.illinois.edu/">Jiawei Han</a>.
+        <br>
+        2009 Conference on Very Large Data Bases (VLDB).
+      </dd>
+      </div>
+
+      <div class="filter fm sec 2008">
+      <dt><a href="papers/raid_2008.pdf">[pdf]</a></dt>
+      <dd>
+        <i>A Layered Architecture for Detecting Malicious Behaviors.</i>
+        <br>
+        L. Martignoni, E. Stinson, Matt Fredrikson, <a href="http://pages.cs.wisc.edu/~jha/">Somesh Jha</a>, <a href="http://theory.stanford.edu/people/jcm/">John Mitchell</a>.
+        <br>
+        2008 Symposium on Recent Advances in Intrusion Detection (RAID).
+      </dd>
+      </div>
+
+    </dl>
+
+    <hr>
+    <i>Last updated 5/11/21</i>
+  </div>
+
+</body>
+
+</html>

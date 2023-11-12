@@ -1,0 +1,161 @@
+
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+.jumbotron {
+  color: #ffffff;
+  background: #f00 url(background.jpg);background-size: 100% 100%; background-repeat: no-repeat;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.container.banner {
+	padding: 0;
+}
+
+.contactlist, 
+.contactlist li {
+	margin: 0;
+	padding: 0;
+}
+
+.contactlist li {
+	display: inline;	
+	padding-right: 10px;	
+}
+
+.container.contact {
+	margin: 0;
+	padding: 0;	
+}
+
+.header-bar {
+	background-color: #990000;
+	color: #fff;		
+}
+
+.header-bar img {
+	float: right;	
+	margin: 10px 10px 10px 10px;
+}
+
+.header-bar p {
+	margin-top: 15px;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;	
+  color: #000;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  filter: none;
+  filter: none;
+  background-repeat: no-repeat;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .active > a {
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  filter: none;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  text-shadow: none;
+}
+
+#navbar.navbar-collapse.collapsing {
+	border: 0;
+}
+
+#navbar.navbar-collapse.collapsing ul {
+	border-top: 1px solid;		
+	border-bottom: 1px solid;
+	border-color: #e7e7e7;
+}
+
+#navbar.navbar-collapse.collapsing li + li {
+	border-top: 1px solid;		
+	border-color: #e7e7e7;
+}
+
+#navbar.navbar-collapse.collapse.in {
+	border: 0;
+}
+
+#navbar.navbar-collapse.collapse.in ul {
+	border-top: 1px solid;		
+	border-bottom: 1px solid;
+	border-color: #e7e7e7;
+}
+
+#navbar.navbar-collapse.collapse.in li + li {
+	border-top: 1px solid;		
+	border-color: #e7e7e7;
+}
+
+h2,
+.h2 {
+	margin-bottom: 3px;
+}
+
+h4,
+.h4 {
+  font-size: 18px;
+  font-weight: 300;  
+}
+
+span.avoidwrap { 
+	display: inline-block;
+}
+
+.bodytext {
+	text-align: justify;
+}
+
+.dl-unstyled dt {
+	width: auto;
+}
+
+.dl-unstyled dd {
+	margin-left: 100px;
+	margin-bottom: 5px;
+}
+
+#pubs dt {	
+	white-space: normal;
+}
+
+#pubs dd {
+	margin-left: 125px;
+}
